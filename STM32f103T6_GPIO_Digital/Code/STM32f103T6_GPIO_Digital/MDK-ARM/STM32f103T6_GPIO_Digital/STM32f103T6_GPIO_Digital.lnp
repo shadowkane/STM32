@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"stm32f103t6_gpio_digital\startup_stm32f103x6.o"
+"stm32f103t6_gpio_digital\main.o"
+"stm32f103t6_gpio_digital\stm32f1xx_it.o"
+"stm32f103t6_gpio_digital\stm32f1xx_hal_msp.o"
+"stm32f103t6_gpio_digital\stm32f1xx_hal_gpio_ex.o"
+"stm32f103t6_gpio_digital\stm32f1xx_hal_tim.o"
+"stm32f103t6_gpio_digital\stm32f1xx_hal_tim_ex.o"
+"stm32f103t6_gpio_digital\stm32f1xx_hal.o"
+"stm32f103t6_gpio_digital\stm32f1xx_hal_rcc.o"
+"stm32f103t6_gpio_digital\stm32f1xx_hal_rcc_ex.o"
+"stm32f103t6_gpio_digital\stm32f1xx_hal_gpio.o"
+"stm32f103t6_gpio_digital\stm32f1xx_hal_dma.o"
+"stm32f103t6_gpio_digital\stm32f1xx_hal_cortex.o"
+"stm32f103t6_gpio_digital\stm32f1xx_hal_pwr.o"
+"stm32f103t6_gpio_digital\stm32f1xx_hal_flash.o"
+"stm32f103t6_gpio_digital\stm32f1xx_hal_flash_ex.o"
+"stm32f103t6_gpio_digital\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "STM32f103T6_GPIO_Digital\STM32f103T6_GPIO_Digital.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32f103T6_GPIO_Digital.map" -o STM32f103T6_GPIO_Digital\STM32f103T6_GPIO_Digital.axf
